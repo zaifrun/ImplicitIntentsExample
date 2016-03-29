@@ -7,6 +7,7 @@ import android.content.pm.ResolveInfo;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.Toast;
 
 import java.util.List;
@@ -27,6 +28,17 @@ public class MainActivity extends Activity {
 		Intent intent = new Intent(android.content.Intent.ACTION_VIEW,
 				Uri.parse("http://www.google.com"));
 		startActivity(intent);		
+	}
+
+	public void shareText(View view)
+	{
+		EditText edit = (EditText) findViewById(R.id.inputText);
+		String text = edit.getText().toString();
+		Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
+		sharingIntent.setType("text/plain");
+		sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, "Shared Shoppinglist");
+		sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, text);
+		startActivity(Intent.createChooser(sharingIntent, "Share Using"));
 	}
 
 	public void showMap(View view) {
