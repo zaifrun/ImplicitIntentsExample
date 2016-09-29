@@ -26,4 +26,22 @@
         android:onClick="makeCall"
         android:text="Make Call" />
 
+    <Button
+        android:id="@+id/btnShareText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="shareText"
+        android:text="Share Text" />
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Input text to share below"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/inputText"
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:background="@android:color/holo_blue_light"
+        android:minEms="10"
+        android:layout_height="wrap_content"/>
+
 </LinearLayout>

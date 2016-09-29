@@ -6,8 +6,8 @@ android {
 
     defaultConfig {
         applicationId "com.iducate.intentsexample"
-        minSdkVersion 14
-        targetSdkVersion 19
+        minSdkVersion 16
+        targetSdkVersion 23
     }
 
     buildTypes {
