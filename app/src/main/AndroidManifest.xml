@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.iducate.intentsexample"
-    android:versionCode="1"
-    android:versionName="1.0" >
+    package="com.iducate.intentsexample">
 
-    <uses-sdk
-        android:minSdkVersion="8"
-        android:targetSdkVersion="19" />
 
     <application
         android:allowBackup="true"
