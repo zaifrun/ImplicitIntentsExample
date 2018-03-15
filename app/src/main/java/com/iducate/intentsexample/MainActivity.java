@@ -32,7 +32,7 @@ public class MainActivity extends Activity {
 
 	public void shareText(View view)
 	{
-		EditText edit = (EditText) findViewById(R.id.inputText);
+		EditText edit = findViewById(R.id.inputText);
 		String text = edit.getText().toString();
 		Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
 		sharingIntent.setType("text/plain");
