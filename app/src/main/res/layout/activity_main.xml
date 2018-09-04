@@ -1,5 +1,4 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/LinearLayout1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -10,31 +9,31 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="browseWeb"
-        android:text="Web Browser" />
+        android:text="@string/web_browser" />
 
     <Button
         android:id="@+id/btnShowMap"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="showMap"
-        android:text="Show Map" />
+        android:text="@string/show_map" />
 
     <Button
         android:id="@+id/btnMakeCall"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="makeCall"
-        android:text="Make Call" />
+        android:text="@string/make_call" />
 
     <Button
         android:id="@+id/btnShareText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="shareText"
-        android:text="Share Text" />
+        android:text="@string/share_text" />
     <TextView
         android:layout_width="match_parent"
-        android:text="Input text to share below"
+        android:text="@string/input_text_to_share_below"
         android:layout_height="wrap_content"/>
     <EditText
         android:id="@+id/inputText"

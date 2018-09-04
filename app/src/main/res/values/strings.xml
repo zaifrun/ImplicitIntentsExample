@@ -4,5 +4,10 @@
     <string name="app_name">IntentsExample</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="web_browser">Web Browser</string>
+    <string name="show_map">Show Map</string>
+    <string name="make_call">Make Call</string>
+    <string name="share_text">Share Text</string>
+    <string name="input_text_to_share_below">Input text to share below</string>
 
 </resources>
